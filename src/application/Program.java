@@ -1,7 +1,10 @@
 package application;
 
+import Boardgame.Position;
+
 public class Program {
     public static void main(String[] args) {
-        
+        Position poss = new Position(3, 5);
+        System.out.println(poss);
     }
 }
